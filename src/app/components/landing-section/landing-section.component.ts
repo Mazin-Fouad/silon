@@ -14,6 +14,7 @@ export class LandingSectionComponent {
       title: 'Silon',
       slogan: 'Home of Women Fashion',
       branches: ['Karlsruhe', 'Mannheim', 'Heidlberg'],
+      img: 'assets/imgs/ban-1.png',
     };
   }
 }

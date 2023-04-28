@@ -1,4 +1,9 @@
 section {
-    min-height: 83dvh;
+    min-height: 84dvh;
     background: radial-gradient(circle at top, #ff5f6d, #ffc371);
+
+    .landing-img {
+        height: 783px !important;
+        object-fit: cover;
+    }
 }

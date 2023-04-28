@@ -1,8 +1,17 @@
 <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5"></div>
-      <div class="col-md-7"></div>
+  <div class="container d-flex justify-content-between align-items-center">
+    <div>
+      <h4 class="fw-bold">{{ storeInfo.slogan }}</h4>
+      <h1 class="fw-bolder">{{ storeInfo.title }}<span>.</span></h1>
+      <div class="branches">
+        <span class="me-2" *ngFor="let branch of storeInfo.branches">{{
+          branch
+        }}</span>
+      </div>
+    </div>
+
+    <div class="">
+      <img class="landing-img img-fluid" [src]="storeInfo.img" />
     </div>
   </div>
 </section>

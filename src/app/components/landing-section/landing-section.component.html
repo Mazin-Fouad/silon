@@ -2,7 +2,9 @@
   <div class="container d-flex justify-content-between align-items-center">
     <div>
       <h4 class="fw-bold">{{ storeInfo.slogan }}</h4>
-      <h1 class="fw-bolder">{{ storeInfo.title }}<span>.</span></h1>
+      <h1 class="fw-bolder">
+        {{ storeInfo.title }}<span class="text-danger">.</span>
+      </h1>
       <div class="branches">
         <span class="me-2" *ngFor="let branch of storeInfo.branches">{{
           branch

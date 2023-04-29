@@ -1,8 +1,9 @@
 export interface ProductData {
-  prdId: number;
-  prdTitle: string;
-  prdPrice: number;
-  prdCategory: string;
-  prdDescription: string;
-  prdImg: string;
+  id: number;
+  title: string;
+  price: number;
+  category: string;
+  description: string;
+  image: string;
+  rating: { rate: number; count: number };
 }

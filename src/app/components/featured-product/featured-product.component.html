@@ -15,7 +15,9 @@
         <div class="card-body">
           <h5 class="card-title">{{ product.title }}</h5>
           <h6>Rate: {{ product.rating.rate }}</h6>
-          <a href="#" class="btn btn-primary">More Info</a>
+          <button class="btn btn-danger" (click)="openDialog(product)">
+            More
+          </button>
         </div>
       </div>
     </div>

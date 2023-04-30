@@ -9,6 +9,9 @@ import { LandingSectionComponent } from './components/landing-section/landing-se
 import { MostPopularProductsComponent } from './components/most-popular-products/most-popular-products.component';
 import { FeaturedProductComponent } from './components/featured-product/featured-product.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
+import { FeaturedDialogComponent } from './components/featured-dialog/featured-dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +21,15 @@ import { HttpClientModule } from '@angular/common/http';
     LandingSectionComponent,
     MostPopularProductsComponent,
     FeaturedProductComponent,
+    FeaturedDialogComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FeaturedDialogComponent } from './components/featured-dialog/featured-dialog.component';
+import { PromotionSectionComponent } from './components/promotion-section/promotion-section.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FeaturedDialogComponent } from './components/featured-dialog/featured-d
     MostPopularProductsComponent,
     FeaturedProductComponent,
     FeaturedDialogComponent,
+    PromotionSectionComponent,
   ],
   imports: [
     BrowserModule,
